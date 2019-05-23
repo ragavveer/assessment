@@ -2,7 +2,7 @@
 
 This application allows us to upload and view any csv file.
 
-As of now this application only support csv files.
+As of now this application only support csv file format.
 
 # Upload via file Dialog
 
@@ -12,17 +12,17 @@ click the choose the file button to open the file dialog and upload the file.
 
 Drag and Drop allows us to upload single file as well as multiple file.
 
-Also We can Drag and Drop a folder.
+We can also Drag and Drop an entire folder.
 
 # File View
 
 Uploaded files will be listed out in the same page.
 
-Click the file to view the file details.
+Click the any file specifically to view the details.
 
 # File delete
 
-We can delete the uploaded file by click option available in every uploaded file.
+We can delete the uploaded file individually by click option which is available right side.
 
 # Filter
 
