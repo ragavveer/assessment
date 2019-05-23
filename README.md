@@ -16,4 +16,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Further help
 
-To get more help go check out the [Application Guide](https://github.com/ragavveer/assessment/blob/master/Application-Guide.md).
+To get more help check out the [Application Guide](https://github.com/ragavveer/assessment/blob/master/Application-Guide.md).
