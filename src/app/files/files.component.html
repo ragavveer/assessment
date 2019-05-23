@@ -1,0 +1,19 @@
+<div class="file-manager">
+  <div class="action-bar">
+    <button mat-raised-button color="primary">
+      <label for="file-dialog">
+        Choose the file
+      </label>
+      <input type="file" id="file-dialog" (change)="handleFile($event)" />
+    </button>
+  </div>
+  <div class="file-items">
+    <ng-container *ngFor="let file of files">
+      <app-file-item
+        [file]="file"
+        (deleteFile)="deleteFile($event)"
+      ></app-file-item>
+    </ng-container>
+  </div>
+  <app-file-upload (addFile)="addFile($event)"></app-file-upload>
+</div>

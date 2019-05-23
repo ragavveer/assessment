@@ -1,0 +1,15 @@
+<div class="drag-and-drop-container">
+  <div class="drag-and-drop">
+    <file-drop
+      (onFileDrop)="dropped($event)"
+      (onFileOver)="fileOver($event)"
+      (onFileLeave)="fileLeave($event)"
+    >
+    </file-drop>
+  </div>
+  <div class="drag-and-drop-info">
+    <div class="dd-info">
+      Drag your csv files here to view it in the application.
+    </div>
+  </div>
+</div>

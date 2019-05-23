@@ -1,0 +1,36 @@
+.file-item {
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 45px;
+  margin: 4px 0;
+  line-height: 45px;
+  background-color: #e27ca6;
+  padding: 0px 15px;
+  display: flex;
+  transition: all 0.5s ease;
+  color: white;
+  > div:nth-child(1) {
+    width: 95%;
+    font-size: 110%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  > div:nth-child(2) {
+    width: 5%;
+    text-align: right;
+  }
+  button {
+    position: relative;
+    z-index: 9999;
+  }
+}
+
+.file-item:hover {
+  background-color: #E63B7F;
+}
+
+::ng-deep .mat-menu-content {
+  padding: 0 !important;
+}

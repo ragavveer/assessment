@@ -1,0 +1,13 @@
+.warning {
+  padding: 15px;
+  > div:nth-child(1) {
+    margin-bottom: 15px;
+    font-size: 110%;
+  }
+  > div:nth-child(2) {
+    text-align: right;
+    button {
+      width: 120px;
+    }
+  }
+}

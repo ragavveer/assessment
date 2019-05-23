@@ -1,0 +1,42 @@
+.drag-and-drop-container {
+  position: relative;
+  height: 180px;
+  background-color: #fafbfc;
+  border: 1px solid #e1e4e8;
+  border-radius: 3px;
+  box-shadow: inset 0 0 10px rgba(27,31,35,.05);
+  text-align: center;
+}
+
+.drag-and-drop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+::ng-deep .ngx-file-drop__drop-zone {
+  border: none !important;
+  background-color: transparent;
+  height: 100% !important;
+  border-radius: 0 !important;
+}
+
+::ng-deep .ngx-file-drop__content {
+  height: 100% !important;
+}
+
+.drag-and-drop-info {
+  color: lightgrey;
+  box-sizing: border-box;
+  height: 100%;
+  .dd-info {
+    height: 100%;
+    line-height: 180px;
+    font-size: 170%;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+  }
+}

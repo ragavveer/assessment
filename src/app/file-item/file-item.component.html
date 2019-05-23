@@ -1,0 +1,13 @@
+<div class="file-item mat-elevation-z1">
+  <div (click)="openFile()">
+    {{ file.name }}
+  </div>
+  <div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="delete()">delete file</button>
+    </mat-menu>
+  </div>
+</div>

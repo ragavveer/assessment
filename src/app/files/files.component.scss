@@ -1,0 +1,28 @@
+.file-manager {
+  padding: 25px;
+}
+
+.action-bar {
+  text-align: right;
+  margin-bottom: 15px;
+  button {
+    width: 200px;
+    input[type=file] {
+      display: none;
+    }
+    label {
+      display: block;
+      width: 100%;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .mat-raised-button {
+    padding: 0 !important;
+  }
+}
+
+.file-items {
+  margin-bottom: 15px;
+}
